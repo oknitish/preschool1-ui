@@ -1,0 +1,1607 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+
+<!-- Meta Tags -->
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta name="description" content="KidsPro - Kids Education & Kindergarten School HTML5 Template" />
+<meta name="keywords" content="kindergarten,children,kidsschool,school,baby,childschool,academy,course,education," />
+<meta name="author" content="ThemeMascot" />
+
+<!-- Page Title -->
+<title>Little Birds - Kids Education & Kindergarten School in Bengaluru</title>
+
+<!-- Favicon and Touch Icons -->
+<link href="images/favicon.png" rel="shortcut icon" type="image/png">
+<link href="images/apple-touch-icon.png" rel="apple-touch-icon">
+<link href="images/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
+<link href="images/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
+<link href="images/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
+
+<!-- Stylesheet -->
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/animate.min.css" rel="stylesheet" type="text/css">
+<link href="css/javascript-plugins-bundle.css" rel="stylesheet"/>
+
+<!-- CSS | menuzord megamenu skins -->
+<link href="js/menuzord/css/menuzord.css" rel="stylesheet"/>
+
+<!-- CSS | Main style file -->
+<link href="css/style-main.css" rel="stylesheet" type="text/css">
+<link id="menuzord-menu-skins" href="css/menuzord-skins/menuzord-rounded-boxed.css" rel="stylesheet"/>
+
+<!-- CSS | Responsive media queries -->
+<link href="css/responsive.css" rel="stylesheet" type="text/css">
+<!-- CSS | Style css. This is the file where you can place your own custom css code. Just uncomment it and use it. -->
+
+<!-- CSS | Theme Color -->
+<link href="css/colors/theme-skin-color-set1.css" rel="stylesheet" type="text/css">
+
+<!-- Custom header styles -->
+<style>
+  /* Nav menu items (Home, About Us, etc.): default black, no bg, no active highlight */
+  #top-primary-nav .menuzord-menu > li > a:not(.btn),
+  #top-primary-nav-clone .menuzord-menu > li > a:not(.btn) {
+    color: #000 !important;
+    background: transparent !important;
+  }
+/* Hover: text orange only, no background */
+  #top-primary-nav .menuzord-menu > li:hover > a:not(.btn),
+  #top-primary-nav-clone .menuzord-menu > li:hover > a:not(.btn) {
+    color: #FF9800 !important;
+    background: transparent !important;
+  }
+  /* Active (current page): text orange only, no background */
+  #top-primary-nav .menuzord-menu > li.active > a:not(.btn),
+  #top-primary-nav-clone .menuzord-menu > li.active > a:not(.btn) {
+    color: #FF9800 !important;
+    background: transparent !important;
+  }
+/* Book a Campus Visit button: on hover -> text orange, bg white, border orange */
+  #top-primary-nav .menuzord-menu > li > a.btn:hover,
+  #top-primary-nav-clone .menuzord-menu > li > a.btn:hover {
+    background: #fff !important;
+    color: #f7931e !important;
+    border: 2px solid #f7931e !important;
+  }
+  /* Reduce main header height */
+  .menuzord-brand.site-brand {
+    margin: 4px 18px 4px 0;
+  }
+  #top-primary-nav .menuzord-menu > li,
+  #top-primary-nav-clone .menuzord-menu > li {
+    padding: 10px 0;
+  }
+  /* Increase logo size so it is clearly visible */
+  .menuzord-brand.site-brand .logo-1x {
+    height: 82px;
+    width: auto;
+  }
+  /* Keep desktop navigation close to the logo without affecting mobile layout */
+  @media (min-width: 1200px) {
+    .header-nav-col-row > .col.col-xl-auto {
+      flex: 1 0 0% !important;
+      width: 100% !important;
+      margin-left: 0 !important;
+    }
+    #top-primary-nav {
+      width: 100%;
+    }
+    #top-primary-nav .menuzord-menu {
+      display: flex;
+      width: 100%;
+      margin-left: 0;
+      float: none;
+    }
+    #top-primary-nav .menuzord-menu > li.campus-visit-menu-item {
+      margin-left: auto;
+      padding-left: 64px;
+    }
+  }
+  /* Top bar action links */
+  .topbar-link {
+    color: rgba(255,255,255,0.75) !important;
+    font-family: "Lora", serif;
+    font-size: 12px;
+    font-weight: 500 !important;
+    letter-spacing: 0.35px;
+    line-height: 1.25;
+    text-decoration: none !important;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    padding-left: 9px;
+    padding-right: 9px;
+    transition: color .25s ease, border-color .25s ease;
+  }
+  .topbar-link:hover,
+  .topbar-link:focus {
+    color: #fff !important;
+    text-decoration: none !important;
+    border-color: #fff !important;
+    outline: none;
+  }
+  /* Compact admission enquiry fields without affecting other forms */
+  #contact_form input.form-control,
+  #contact_form select.form-control {
+    height: 50px;
+  }
+  #contact_form textarea.form-control {
+    height: 90px;
+    min-height: 90px;
+  }
+.topbar-separator {
+    color: rgba(255,255,255,0.75);
+    font-weight: 400;
+    margin-right: 1rem;
+  }
+  /* Testimonials Marquee */
+  .testimonial-marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 20px 0 35px;
+  }
+  .testimonial-marquee-track {
+    display: inline-flex;
+    animation: testimonial-scroll 40s linear infinite;
+    will-change: transform;
+  }
+  .testimonial-marquee:hover .testimonial-marquee-track {
+    animation-play-state: paused;
+  }
+  .testimonial-marquee-track .tm-testimonial-card {
+    display: inline-block;
+    white-space: normal;
+    width: 380px;
+    margin-right: 30px;
+    background: #ffffff;
+    border: 1px solid rgba(255,255,255,0.65);
+    border-radius: 18px;
+    padding: 30px 28px;
+    text-align: center;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.18);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .testimonial-marquee-track .tm-testimonial-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 22px 55px rgba(0,0,0,0.28);
+  }
+  .testimonial-marquee-track .tm-testimonial-card .testimonial-rating {
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #f5a623;
+    margin-bottom: 12px;
+  }
+  .testimonial-marquee-track .tm-testimonial-card p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #444444;
+    margin-bottom: 16px;
+  }
+  .testimonial-marquee-track .tm-testimonial-card .fa-quote-right {
+    margin-bottom: 12px;
+  }
+  .testimonial-marquee-track .tm-testimonial-card h4.author {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1c1c3b;
+    margin-bottom: 2px;
+  }
+  .testimonial-marquee-track .tm-testimonial-card h6.position {
+    font-size: 13px;
+    font-weight: 500;
+    color: #888888;
+    margin: 0;
+  }
+  @keyframes testimonial-scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+@media (max-width: 767px) {
+    .testimonial-marquee-track .tm-testimonial-card {
+      width: 300px;
+    }
+  }
+/* Features section: keep all boxes equal height regardless of text length */
+  #features .row [class*="col-"] {
+    margin-bottom: 30px;
+  }
+  #features .tm-sc-icon-box {
+    height: 100%;
+    padding: 22px 24px !important;
+    margin-bottom: 0 !important;
+  }
+  #features .icon-box-wrapper {
+    height: 100%;
+  }
+  #features .icon-box-title {
+    font-size: 17px;
+    margin-bottom: 8px;
+  }
+  #features .content p {
+    margin-bottom: 0;
+    line-height: 1.6;
+    font-size: 14px;
+  }
+
+/* Footer Google Map Card */
+  .india-footer-map {
+    margin-top: 22px;
+    border: 1px solid rgba(255,255,255,0.14);
+    border-radius: 12px;
+    overflow: hidden;
+    background: rgba(255,255,255,0.06);
+  }
+  .india-footer-map-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px 14px;
+    border-bottom: 1px solid rgba(255,255,255,0.12);
+  }
+  .india-footer-map-title i {
+    color: #ff5e14;
+    font-size: 15px;
+  }
+  .india-footer-map-embed {
+    position: relative;
+    line-height: 0;
+  }
+  .india-footer-map-embed iframe {
+    display: block;
+    width: 100%;
+    height: 170px;
+    border: 0;
+    filter: grayscale(35%) contrast(1.05);
+    transition: filter 0.3s ease;
+  }
+  .india-footer-map:hover .india-footer-map-embed iframe {
+    filter: grayscale(0%);
+  }
+  .india-footer-map-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 14px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    background: #ff5e14;
+    transition: background 0.3s ease;
+  }
+  .india-footer-map-btn:hover {
+    background: #e64d0c;
+    color: #ffffff;
+  }
+  .india-footer-map-btn i {
+    font-size: 15px;
+  }
+
+  /* India Footer base */
+  .india-footer { font-size: 14px; }
+  .india-footer p { color: #c7c7c7; }
+  .india-footer a { color: #c7c7c7; }
+  .india-footer .widget-title {
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .india-footer-logo {
+    max-height: 60px;
+    width: auto;
+    margin-bottom: 12px;
+  }
+  .india-footer .tm-widget-contact-info ul li a { color: #c7c7c7; }
+  .india-footer-newsletter .input-group .form-control { background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.2); color: #fff; }
+  .india-social-title { color: #fff; font-size: 14px; font-weight: 600; margin-bottom: 8px; }
+  .india-dev-link { color: #ff5e14 !important; }
+  .india-dev-link:hover { color: #ffffff !important; }
+  .india-footer-bottom { background: rgba(0,0,0,0.25); }
+  .india-footer-bottom .footer-paragraph { color: #c7c7c7; }
+
+  /* Indian tricolor accent strip */
+  .india-footer-tricolor { display: flex; height: 4px; width: 100%; }
+  .india-footer-tricolor .tri-saffron { background: #FF9933; flex: 1; }
+  .india-footer-tricolor .tri-white { background: #ffffff; flex: 1; }
+  .india-footer-tricolor .tri-green { background: #138808; flex: 1; }
+</style>
+
+<!-- external javascripts -->
+<script src="js/jquery.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/javascript-plugins-bundle.js"></script>
+<script src="js/menuzord/js/menuzord.js"></script>
+
+<!-- REVOLUTION STYLE SHEETS -->
+<link rel="stylesheet" type="text/css" href="js/revolution-slider/css/rs6.css">
+<link rel="stylesheet" type="text/css" href="js/revolution-slider/extra-rev-slider1.css">
+<!-- REVOLUTION LAYERS STYLES -->
+<!-- REVOLUTION JS FILES -->
+<script src="js/revolution-slider/js/revolution.tools.min.js"></script>
+<script src="js/revolution-slider/js/rs6.min.js"></script>
+<script src="js/revolution-slider/extra-rev-slider1.js"></script>
+
+<!-- <link href="css/style.css" rel="stylesheet" type="text/css"> -->
+
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<body class="tm-container-1230px has-side-panel side-panel-right">
+<div class="side-panel-body-overlay"></div>
+<div id="side-panel-container" class="dark" data-tm-bg-img="images/side-push-bg.jpg">
+  <div class="side-panel-wrap">
+    <div id="side-panel-trigger-close" class="side-panel-trigger"><a href="#"><i class="fa fa-times side-panel-trigger-icon"></i></a></div>
+    <img class="logo mb-50" src="images/logo-wide.png" alt="Logo">
+    <p>Lorem ipsum is simply free text dolor sit am adipi we help you ensure everyone is in the right jobs sicing elit, sed do consulting firms Et leggings across the nation tempor.</p>
+    <div class="widget">
+      <h4 class="widget-title widget-title-line-bottom line-bottom-theme-colored1">Latest News</h4>
+      <div class="latest-posts">
+        <article class="post clearfix pb-0 mb-10">
+          <a class="post-thumb" href="news-details.html"><img src="https://via.placeholder.com/73x73" alt="images"></a>
+          <div class="post-right">
+            <h5 class="post-title mt--0"><a href="news-details.html">Sustainable Construction</a></h5>
+            <p>Lorem ipsum dolor...</p>
+          </div>
+        </article>
+        <article class="post clearfix pb-0 mb-10">
+          <a class="post-thumb" href="news-details.html"><img src="https://via.placeholder.com/73x73" alt="images"></a>
+          <div class="post-right">
+            <h5 class="post-title mt--0"><a href="news-details.html">Industrial Coatings</a></h5>
+            <p>Lorem ipsum dolor...</p>
+          </div>
+        </article>
+        <article class="post clearfix pb-0 mb-10">
+          <a class="post-thumb" href="news-details.html"><img src="https://via.placeholder.com/70x70" alt="images"></a>
+          <div class="post-right">
+            <h5 class="post-title mt--0"><a href="news-details.html">Storefront Installations</a></h5>
+            <p>Lorem ipsum dolor...</p>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <div class="widget">
+      <h5 class="widget-title widget-title-line-bottom line-bottom-theme-colored1">Contact Info</h5>
+      <div class="tm-widget-contact-info contact-info-style1 contact-icon-theme-colored1">
+        <ul>
+          <li class="contact-name">
+            <div class="icon"><i class="flaticon-contact-037-address"></i></div>
+            <div class="text">John Doe</div>
+          </li>
+          <li class="contact-phone">
+            <div class="icon"><i class="flaticon-contact-042-phone-1"></i></div>
+            <div class="text"><a href="tel:+510-455-6735">+510-455-6735</a></div>
+          </li>
+          <li class="contact-email">
+            <div class="icon"><i class="flaticon-contact-043-email-1"></i></div>
+            <div class="text"><a href="mailto:info@yourdomain.com">info@yourdomain.com</a></div>
+          </li>
+          <li class="contact-address">
+            <div class="icon"><i class="flaticon-contact-047-location"></i></div>
+            <div class="text">3982 Browning Lane Carolyns Circle, California</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="wrapper" class="clearfix">
+  <!-- Header -->
+  <header id="header" class="header header-layout-type-header-2rows">
+<div class="header-top" style="background-color:#00BCD4;">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 header-top-right text-center text-xl-end py-1">
+<div class="d-flex justify-content-center justify-content-xl-end align-items-center">
+              <a href="https://wa.me/919876543210" target="_blank" class="topbar-link me-2 me-sm-3 py-1">WhatsApp Chat</a>
+              <span class="topbar-separator">|</span>
+              <a href="#campus-visit-modal" data-bs-toggle="modal" data-modal-context="call-back" class="topbar-link py-1">Call Me Back</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Call Me Back Modal -->
+    <div class="modal fade" id="call-back-modal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header bg-theme-colored3">
+            <h5 class="modal-title text-white mb-0"><i class="fa fa-phone mr-10"></i> Call Me Back</h5>
+            <button type="button" class="close text-white" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">
+            <p class="mb-20">Please fill in your details below and we will call you back shortly.</p>
+            <form id="call-back-form" method="post" action="#">
+              <div class="mb-3">
+                <label class="form-label">Parents Name <span class="text-theme-colored1">*</span></label>
+                <input type="text" name="parent_name" class="form-control" placeholder="Enter Parent's Name" required>
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Kids Name <span class="text-theme-colored1">*</span></label>
+                <input type="text" name="kids_name" class="form-control" placeholder="Enter Kid's Name" required>
+              </div>
+              <div class="mb-3 d-grid">
+                <button type="submit" class="btn btn-theme-colored1 btn-flat">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- Call Me Back Modal End -->
+    <!-- Book a Campus Visit Modal -->
+    <div class="modal fade" id="campus-visit-modal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header bg-theme-colored2">
+            <h5 id="campus-visit-modal-title" class="modal-title text-white mb-0"><i class="fa fa-calendar-check mr-10"></i> Book a Campus Visit</h5>
+            <button type="button" class="close text-white" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">
+            <p id="campus-visit-modal-description" class="mb-20">Please fill in your details below and we will schedule your campus visit.</p>
+            <form id="campus-visit-form" method="post" action="#">
+              <div class="mb-3">
+                <label class="form-label">Parents Name <span class="text-theme-colored1">*</span></label>
+                <input type="text" name="parent_name" class="form-control" placeholder="Enter Parent's Name" required>
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Mobile Number <span class="text-theme-colored1">*</span></label>
+                <input type="tel" name="mobile_number" class="form-control" placeholder="Enter Mobile Number" required>
+              </div>
+              <div class="mb-3 d-grid">
+                <button type="submit" class="btn btn-theme-colored1 btn-flat">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Book a Campus Visit Modal End -->
+    <div class="header-nav tm-enable-navbar-hide-on-scroll">
+      <div class="header-nav-wrapper navbar-scrolltofixed">
+        <div class="menuzord-container header-nav-container">
+          <div class="container position-relative">
+            <div class="row header-nav-col-row">
+              <div class="col-sm-auto align-self-center">
+<a class="menuzord-brand site-brand" href="index.html">
+                  <img class="logo-default logo-1x" src="images/littlebirds.png" alt="Little Birds">
+                </a>
+              </div>
+<div class="col col-xl-auto ms-sm-auto pe-0 ps-0 align-self-center">
+                <nav id="top-primary-nav" class="menuzord default menuzord-color-default menuzord-border-boxed menuzord-responsive" data-effect="slide" data-animation="none" data-align="right">
+<ul id="main-nav" class="menuzord-menu menuzord-right menuzord-indented scrollable">
+<li><a href="index.html">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Programs</a>
+                      <ul class="dropdown">
+                        <li><a href="#">Preschool</a></li>
+
+                        <li><a href="#">Daycare</a></li>
+                        <li><a href="#">Nursery</a></li>
+                        <li><a href="#">LKG</a></li>
+                        <li><a href="#">UKG</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Admission</a></li>
+                    <li><a href="#">Gallery</a></li>
+<li><a href="#">Contact</a></li>
+<li class="campus-visit-menu-item"><a href="#campus-visit-modal" data-bs-toggle="modal" class="btn btn-orange btn-sm text-white fw-bold" style="background:#f7931e;border-color:#fff;color:#fff;font-weight:700;border:2px solid #fff;">Book a Campus Visit</a></li>
+                  </ul>
+                </nav>
+              </div>
+            
+            </div>
+            <div class="row d-block d-xl-none">
+               <div class="col-12">
+                <nav id="top-primary-nav-clone" class="menuzord d-block d-xl-none default menuzord-color-default menuzord-border-boxed menuzord-responsive" data-effect="slide" data-animation="none" data-align="right">
+<ul id="main-nav-clone" class="menuzord-menu menuzord-right menuzord-indented scrollable">
+<li class="active"><a href="index.html">Home</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Programs</a>
+                    <ul class="dropdown">
+                      <li><a href="#">Preschool</a></li>
+                      <li><a href="#">Daycare</a></li>
+                      <li><a href="#">Nursery</a></li>
+                      <li><a href="#">LKG</a></li>
+                      <li><a href="#">UKG</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Admission</a></li>
+<li><a href="#">Gallery</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#campus-visit-modal" data-bs-toggle="modal" class="btn btn-orange btn-sm text-white fw-bold" style="background:#f7931e;border-color:#fff;color:#fff;font-weight:700;border:2px solid #fff;">Book a Campus Visit</a></li>
+                </ul>
+                </nav>
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Start main-content -->
+  <div class="main-content-area">
+
+    <!-- Section: home Start -->
+    <section id="home">
+      <div class="container-fluid p-0">
+        <div class="row">
+          <div class="col">
+            <!-- START Industrivo Rev Slider 2 REVOLUTION SLIDER 6.1.7 -->
+            <p class="rs-p-wp-fix"></p>
+            <rs-module-wrap id="rev_slider_1_1_wrapper" data-alias="firoox-revolution-slider" data-source="gallery" style="background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
+              <rs-module id="rev_slider_1_1" style="" data-version="6.3.3">
+                <rs-slides>
+                  <rs-slide data-key="rs-2" data-title="Slide 1" data-thumb="https://via.placeholder.com/1920x800" data-anim="ei:d;eo:d;s:d;r:default;t:slotslide-horizontal;sl:d;">
+                    <img src="images/bg/bg1.jpg" title="firoox-s1" width="1920" height="1280" data-bg="p:center top;" data-parallax="off" class="rev-slidebg" data-no-retina>
+                    <rs-layer
+                      id="slider-2-slide-2-layer-10" 
+                      data-type="text"
+                      data-rsp_ch="on"
+                      data-xy="x:l,l,c,c;xo:50px,0,-192px,15px;yo:270px,203px,175px,179px;"
+                      data-text="w:normal;s:18,22,18,18;l:36,36,36,36;ls:1px,1px,0px,1px;fw:500;a:center,center,center,center;"
+                      data-dim="w:345px,400px,330px,356px;h:auto,auto,auto,auto;"
+                      data-frame_0="y:-50,-37,-28,-17;"
+                      data-frame_1="st:500;sp:1000;sR:500;"
+                      data-frame_999="o:0;st:w;sR:7500;"
+                      style="z-index:12;"
+class="font-current-theme2 bg-white text-theme-colored2 border-radius-5"
+>Welcome to Little Birds
+                    </rs-layer>
+                    <rs-layer
+                      id="slider-2-slide-2-layer-18" 
+                      data-type="text"
+                      data-rsp_ch="on"
+                      data-xy="x:l,l,c,c;xo:55px,0px,-30px,15px;yo:318px,249px,212px,235px;"
+                      data-text="w:normal;s:90,70,60,40;l:95,90,80,50;ls:0px,0px,-1px,0px;fw:900;a:left,left,left,center;"
+                      data-dim="w:950px,743px,659px,455px;"
+                      data-frame_0="y:-50,-37,-28,-17;"
+                      data-frame_1="st:1100;sp:1000;sR:1100;"
+                      data-frame_999="o:0;st:w;sR:6900;"
+                      style="z-index:11;"
+                      class="font-current-theme2"
+>Nurturing Young Minds, Shaping Bright Futures
+                    </rs-layer>
+                    <rs-layer
+                      id="slider-2-slide-2-layer-22"
+                      data-type="text"
+                      data-rsp_ch="on"
+                      data-xy="x:l,l,c,c;xo:60px,0px,-265px,0px;yo:548px,480px,400px,360px;"
+                      data-text="w:normal;s:20,16,16,13;l:22,20,18,20;a:left,left,left,center;"
+                      data-frame_0="y:-50,-37,-28,-17;"
+                      data-frame_1="st:1700;sp:1000;sR:1700;"
+                      data-frame_999="o:0;st:w;sR:6300;"
+                      style="z-index:10;"
+                      class="font-current-theme1"
+                    ><a href="page-about.html" class="btn btn-theme-colored1">Discover More</a>
+                    </rs-layer>
+                    <rs-layer
+                      id="slider-2-slide-2-layer-0"
+                      data-type="shape"
+                      data-rsp_ch="on"
+                      data-text="w:normal;s:20,14,10,6;l:0,18,13,8;"
+                      data-dim="w:100%;h:100%;"
+                      data-basealign="slide"
+                      data-frame_999="o:0;st:w;sR:8700;"
+                      style="z-index:8;background-color:rgba(0,10,22,0.17);"
+                    >
+                    </rs-layer>
+                  </rs-slide>
+                  <rs-slide data-key="rs-11" data-title="Slide 1" data-thumb="https://via.placeholder.com/1920x1280" data-anim="ei:d;eo:d;s:d;r:default;t:slotslide-horizontal;sl:d;">
+                    <img src="images/bg/bg2.jpg" title="Untitled-1" width="1920" height="1280" data-bg="p:center top;" data-parallax="off" class="rev-slidebg" data-no-retina>
+                    <rs-layer
+                      id="slider-2-slide-11-layer-10"
+                      data-type="text"
+                      data-rsp_ch="on"
+                      data-xy="x:l,l,c,c;xo:50px,0,-192px,15px;yo:270px,203px,175px,179px;"
+                      data-text="w:normal;s:18,22,18,18;l:36,36,36,36;ls:1px,1px,0px,1px;fw:500;a:center,center,center,center;"
+                      data-dim="w:345px,400px,330px,356px;h:auto,auto,auto,auto;"
+                      data-frame_0="y:-50,-37,-28,-17;"
+                      data-frame_1="st:500;sp:1000;sR:500;"
+                      data-frame_999="o:0;st:w;sR:7500;"
+                      style="z-index:12;"
+class="font-current-theme2 bg-white text-theme-colored2 border-radius-5"
+>Little Birds: Where Learning Begins
+                    </rs-layer>
+                    <rs-layer
+                      id="slider-2-slide-11-layer-18"
+                      data-type="text"
+                      data-rsp_ch="on"
+                      data-xy="x:l,l,c,c;xo:55px,0px,-30px,15px;yo:318px,249px,212px,235px;"
+                      data-text="w:normal;s:90,70,60,40;l:95,90,80,50;ls:0px,0px,-1px,0px;fw:900;a:left,left,left,center;"
+                      data-dim="w:950px,743px,659px,455px;"
+                      data-frame_0="y:-50,-37,-28,-17;"
+                      data-frame_1="st:1100;sp:1000;sR:1100;"
+                      data-frame_999="o:0;st:w;sR:6900;"
+                      style="z-index:11;"
+                      class="font-current-theme2"
+>Where Every Child Learns, Plays & Grows with Joy
+                    </rs-layer>
+                    <rs-layer
+                      id="slider-2-slide-11-layer-22"
+                      data-type="text"
+                      data-rsp_ch="on"
+                      data-xy="x:l,l,c,c;xo:60px,0px,-265px,0px;yo:548px,480px,400px,360px;"
+                      data-text="w:normal;s:20,16,16,13;l:22,20,18,20;a:left,left,left,center;"
+                      data-frame_0="y:-50,-37,-28,-17;"
+                      data-frame_1="st:1700;sp:1000;sR:1700;"
+                      data-frame_999="o:0;st:w;sR:6300;"
+                      style="z-index:10;"
+                      class="font-current-theme1"
+                    ><a href="page-about.html" class="btn btn-theme-colored1">Discover More</a>
+                    </rs-layer>
+                    <rs-layer
+                      id="slider-2-slide-11-layer-0"
+                      data-type="shape"
+                      data-rsp_ch="on"
+                      data-text="w:normal;s:20,14,10,6;l:0,18,13,8;"
+                      data-dim="w:100%;h:100%;"
+                      data-basealign="slide"
+                      data-frame_999="o:0;st:w;sR:8700;"
+                      style="z-index:8;background-color:rgba(0,10,22,0.17);"
+                    >
+                    </rs-layer>
+                  </rs-slide>
+                </rs-slides>
+                <rs-static-layers>
+                  <!--
+                    -->
+                </rs-static-layers>
+                <rs-progress class="rs-bottom" style="height: 5px; background: rgba(199,199,199,0.5);"></rs-progress>
+              </rs-module>
+              <script>
+                if(typeof revslider_showDoubleJqueryError === "undefined") {
+                  function revslider_showDoubleJqueryError(sliderID) {
+                    var err = "<div class='rs_error_message_box'>";
+                    err += "<div class='rs_error_message_oops'>Oops...</div>";
+                    err += "<div class='rs_error_message_content'>";
+                    err += "You have some jquery.js library include that comes after the Slider Revolution files js inclusion.<br>";
+                    err += "To fix this, you can:<br>&nbsp;&nbsp;&nbsp; 1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on";
+                    err += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jQuery.js inclusion and remove it";
+                    err += "</div>";
+                    err += "</div>";
+                    jQuery(sliderID).show().html(err);
+                  }
+                }
+              </script>
+            </rs-module-wrap>
+            <!-- END REVOLUTION SLIDER -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section: home End -->
+
+    <!-- Section: offering -->
+    <section class="">
+      <div class="container pt--0 pt-lg-120" data-tm-padding-bottom="180px">
+        <div class="section-content mt-lg--0" data-tm-margin-top="-220px">
+          <div class="row">
+            <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s">
+              <div class="tm-sc-service service-item-current-style2 text-center">
+                <div class="service-thumb">
+                  <img class="img-fullwidth" src="images/about/1.jpg" alt="1.jpg">
+                </div>
+                <div class="service-content bg-theme-colored3">
+                  <h4 class="title text-white">Experiential Learning</h4>
+                  <p class="text-white">Children explore, discover and learn through playful hands-on activities that spark curiosity every single day.</p>
+                  <a class="btn btn-xs btn-theme-colored1 btn-view-details btn-outline-light" href="page-service-details.html">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+              <div class="tm-sc-service service-item-current-style2 text-center">
+                <div class="service-thumb">
+                  <img class="img-fullwidth" src="images/about/2.jpg" alt="2.jpg">
+                </div>
+                <div class="service-content bg-theme-colored2">
+                  <h4 class="title text-white">Quality Lessons</h4>
+                  <p class="text-white">Your child enjoys carefully planned lessons from caring, qualified teachers in a safe and happy classroom.</p>
+                  <a class="btn btn-xs btn-theme-colored4 btn-view-details btn-outline-light" href="page-service-details.html">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+              <div class="tm-sc-service service-item-current-style2 text-center">
+                <div class="service-thumb">
+                  <img class="img-fullwidth" src="images/about/3.jpg" alt="3.jpg">
+                </div>
+                <div class="service-content bg-theme-colored4">
+                  <h4 class="title text-white">Toys & Games</h4>
+                  <p class="text-white">Learning through play is our way, with safe age-appropriate toys and games that build skills and confidence.</p>
+                  <a class="btn btn-xs btn-theme-colored2 btn-view-details btn-outline-light" href="page-service-details.html">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-40">
+            <div class="col-md-6 col-xl-4">
+              <div class="about-box-contents">
+                <div class="destails">
+<h5 class="text-theme-colored3">Welcome To</h5>
+                  <h3 class="text-theme-colored2">Little Birds Kindergarten</h3>
+                  <p data-tm-font-weight="600">A warm, playful and safe place in Bengaluru where every child learns with joy, curiosity and confidence.</p>
+                </div>
+                <ul class="list-unstyled mb-10">
+                  <li><i class="far fa-hand-point-right text-theme-colored1"></i> Caring and qualified teachers</li>
+                  <li><i class="far fa-hand-point-right text-theme-colored2"></i> Play-based learning activities</li>
+                  <li><i class="far fa-hand-point-right text-theme-colored3"></i> Safe and happy classrooms</li>
+                  <li><i class="far fa-hand-point-right text-theme-colored4"></i> Music, art, sports and more</li>
+                  <li><i class="far fa-hand-point-right text-theme-colored2"></i> Personal attention for every child</li>
+                </ul>
+               
+              </div>
+              <a class="btn btn-xs btn-theme-colored2 btn-outline-light mb-30" href="#">Read More</a>
+            </div>
+            <div class="col-lg-6 col-xl-4 d-none d-xl-block">
+              <div class="text-center mb-30">
+                <div class="thumb">
+                  <img src="images/about/dc1.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-xl-4">
+              <div class="p-30 bg-theme-colored2 mb-30">
+                <form id="contact_form" name="contact_form" class="contact-form" action="includes/sendmail.php" method="post">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <h4 class="text-white">Admission <span class="text-theme-colored4">Enquiry</span></h4>
+                    </div>
+                    <div class="col-sm-12">
+                      <div class="mb-3">
+                        <input name="form_name" class="form-control" type="text" placeholder="Parent / Guardian Name" required="">
+                      </div>
+                    </div>
+                    <div class="col-sm-12">
+                      <div class="mb-3">
+                        <input name="form_email" class="form-control required email" type="email" placeholder="Email Address" required="">
+                      </div>
+                    </div>
+                    <div class="col-sm-12">
+                      <div class="mb-3">
+                        <input name="form_phone" class="form-control" type="tel" placeholder="Mobile Number" required="">
+                      </div>
+                    </div>
+                    <div class="col-sm-12">
+                      <div class="mb-3">
+                        <select name="form_subject" class="form-control required" required="">
+                          <option value="" selected disabled>Program Interested In</option>
+                          <option value="Nursery Enquiry">Nursery</option>
+                          <option value="Preschool Enquiry">Preschool</option>
+                          <option value="LKG Enquiry">LKG</option>
+                          <option value="UKG Enquiry">UKG</option>
+                          <option value="Daycare Enquiry">Daycare</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-sm-12">
+                      <div class="mb-3">
+                        <textarea name="form_message" rows="3" class="form-control textarea required" placeholder="Tell us how we can help"></textarea>
+                      </div>
+                      <div class="mb-3 mb-10 d-grid">
+                        <input name="form_botcheck" class="form-control" type="hidden" value="" />
+                        <button type="submit" class="btn btn-xs btn-theme-colored4 btn-outline-light" data-loading-text="Please wait..."> Call Me Back </button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tm-floating-objects">
+        <span class="z-index-1 bg-img-cover" data-tm-bg-img="images/bg/f2.png" data-tm-width="100%" data-tm-height="143" data-tm-top="auto" data-tm-bottom="0" data-tm-left="0" data-tm-right="0" data-tm-opacity="-100px"></span>
+      </div>
+    </section>
+
+    <!-- Section: Features -->
+    <section id="features" class="">
+      <div class="container pb-90">
+        <div class="section-title">
+          <div class="row justify-content-center">
+            <div class="col-lg-8 col-xl-6">
+              <div class="tm-sc-section-title section-title text-center">
+                <div class="title-wrapper">
+                  <h2 class="title">Our <span class="text-theme-colored3">Features</span></h2>
+                  <p>Everything your little one needs to learn, play and grow in a caring Indian preschool and daycare environment.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section-content">
+          <div class="row">
+            <div class="col-sm-6 col-xl-4">
+              <div class="tm-sc-icon-box icon-box icon-left text-left iconbox-centered-in-responsive bg-theme-colored3 animate-icon-on-hover animate-icon-rotate-y p-30 mb-30" data-tm-border-radius="15px">
+                <div class="icon-box-wrapper">
+                  <div class="icon-wrapper"> <a class="icon text-white"> <i class="fas fa-home"></i> </a></div>
+<div class="icon-text">
+                    <h5 class="icon-box-title text-white">Preschool &amp; Daycare</h5>
+                    <div class="content">
+                      <p class="text-white">NEP 2020-aligned play-based programs for Nursery, LKG, UKG &amp; full-day daycare.</p>
+                    </div>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-xl-4">
+              <div class="tm-sc-icon-box icon-box icon-left text-left iconbox-centered-in-responsive bg-theme-colored2 animate-icon-on-hover animate-icon-rotate-y p-30 mb-30" data-tm-border-radius="15px">
+                <div class="icon-box-wrapper">
+                  <div class="icon-wrapper"> <a class="icon text-white"> <i class="fas fa-graduation-cap"></i> </a></div>
+                  <div class="icon-text">
+<h5 class="icon-box-title text-white">NTT-Trained Teachers</h5>
+                    <div class="content">
+                      <p class="text-white">Caring Montessori &amp; Early Childhood educators who give every child personal attention.</p>
+                    </div>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-xl-4">
+              <div class="tm-sc-icon-box icon-box icon-left text-left iconbox-centered-in-responsive bg-theme-colored1 animate-icon-on-hover animate-icon-rotate-y p-30 mb-30" data-tm-border-radius="15px">
+                <div class="icon-box-wrapper">
+                  <div class="icon-wrapper"> <a class="icon text-white"> <i class="fas fa-shield-alt"></i> </a></div>
+                  <div class="icon-text">
+<h5 class="icon-box-title text-white">Safe &amp; Child-Friendly Campus</h5>
+                    <div class="content">
+                      <p class="text-white">CCTV-monitored, hygienic classrooms with child-safe furniture and secure entrances.</p>
+                    </div>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-xl-4">
+              <div class="tm-sc-icon-box icon-box icon-left text-left iconbox-centered-in-responsive bg-theme-colored4 animate-icon-on-hover animate-icon-rotate-y p-30 mb-30" data-tm-border-radius="15px">
+                <div class="icon-box-wrapper">
+                  <div class="icon-wrapper"> <a class="icon text-white"> <i class="fas fa-utensils"></i> </a></div>
+                  <div class="icon-text">
+<h5 class="icon-box-title text-white">Healthy Indian Meals</h5>
+                    <div class="content">
+                      <p class="text-white">Nutritious vegetarian thali, wholesome snacks and a restful afternoon nap time.</p>
+                    </div>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-xl-4">
+              <div class="tm-sc-icon-box icon-box icon-left text-left iconbox-centered-in-responsive bg-theme-colored3 animate-icon-on-hover animate-icon-rotate-y p-30 mb-30" data-tm-border-radius="15px">
+                <div class="icon-box-wrapper">
+                  <div class="icon-wrapper"> <a class="icon text-white"> <i class="fas fa-bus-alt"></i> </a></div>
+                  <div class="icon-text">
+<h5 class="icon-box-title text-white">Safe Pickup &amp; Drop</h5>
+                    <div class="content">
+                      <p class="text-white">GPS-tracked school vans with trained attendants for complete peace of mind.</p>
+                    </div>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-xl-4">
+              <div class="tm-sc-icon-box icon-box icon-left text-left iconbox-centered-in-responsive bg-theme-colored2 animate-icon-on-hover animate-icon-rotate-y p-30 mb-30" data-tm-border-radius="15px">
+                <div class="icon-box-wrapper">
+                  <div class="icon-wrapper"> <a class="icon text-white"> <i class="fas fa-palette"></i> </a></div>
+                  <div class="icon-text">
+<h5 class="icon-box-title text-white">Fun Activities &amp; Festivals</h5>
+                    <div class="content">
+                      <p class="text-white">Dance, music, art and celebration of Indian festivals like Diwali, Holi &amp; Pongal.</p>
+                    </div>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: divider -->
+    <section class="divider bg-img-cover bg-img-center layer-overlay overlay-theme-colored3-7" data-tm-bg-img="images/bg/p2.jpg">
+      <div class="container pt-90 pb-90">
+        <div class="row">
+          <div class="col-sm-6 col-lg-3 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s">
+            <div class="funfact-item text-center mb-md-30">
+              <div class="icon"><span class="fas fa-user-friends"></span></div>
+              <div>
+                <h2 class="counter">
+                  <span data-animation-duration="2000" data-value="864" class="animate-number">0</span>
+                </h2>
+                <h5 class="title">Qualified Teachers</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+            <div class="funfact-item text-center mb-md-30">
+              <div class="icon"><span class="fas fa-graduation-cap"></span></div>
+              <div>
+                <h2 class="counter">
+                  <span data-animation-duration="2000" data-value="486" class="animate-number">0</span>
+                </h2>
+                <h5 class="title">Successful Kids</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+            <div class="funfact-item text-center mb-sm-30">
+              <div class="icon"><span class="far fa-smile"></span></div>
+              <div>
+                <h2 class="counter">
+                  <span data-animation-duration="2000" data-value="1468" class="animate-number">0</span>
+                </h2>
+                <h5 class="title">Happy Parents</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
+            <div class="funfact-item text-center">
+              <div class="icon"><span class="fas fa-medal"></span></div>
+              <div>
+                <h2 class="counter">
+                  <span data-animation-duration="2000" data-value="32" class="animate-number">0</span>
+                </h2>
+                <h5 class="title">Award Won</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+ 
+
+ 
+    <!-- Section: divider -->
+    <section class="divider bg-img-cover bg-img-center layer-overlay overlay-theme-colored4-8" data-tm-bg-img="https://via.placeholder.com/1600x677">
+      <div class="container pt-90 pb-90">
+        <div class="row">
+          <div class="col-lg-6 m-auto">
+            <div class="text-center">
+              <h3 class="text-white">Watch Our Latest Campus Tour video</h3>
+              <p class="text-white">Lorem ipsum dolor sit amet adipisi elit molestias non nulla placeat odio dolor amet dicta alias sit amet adipisi elit molestias non nulla placeat.</p>
+              <div class="box-hover-effect tm-sc-video-popup tm-sc-video-popup-css-button">
+                <div class="effect-wrapper d-flex align-items-center">
+                  <div class="animated-css-play-button"><span class="play-icon"><i class="fa fa-play"></i></span></div>
+                  <a class="hover-link" data-lightbox-gallery="youtube-video" href="https://www.youtube.com/watch?v=xcJtL7QggTI" title=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Activity -->
+    <section class="bg-img-cover bg-img-center" data-tm-bg-img="https://via.placeholder.com/1600x677">
+      <div class="container pb-md-120" data-tm-padding-bottom="205px">
+        <div class="section-title">
+          <div class="row justify-content-center">
+            <div class="col-lg-8 col-xl-6">
+              <div class="tm-sc-section-title section-title text-center">
+                <div class="title-wrapper">
+                  <h2 class="title">Our <span class="text-theme-colored3">Activities</span></h2>
+                  <p>Thoughtfully planned activities help children explore, create and grow through joyful, age-appropriate experiences every day.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section-content">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="tm-sc-departments tm-sc-departments-tab">
+                <ul class="nav nav-tabs">
+                  <li class="bg-theme-colored1 active"> <a href="#tab-music-tabs" class="active show" data-bs-toggle="tab"> <i class="fas fa-music"></i> <span>Music</span> </a></li>
+                  <li class="bg-theme-colored2"> <a href="#tab-learn-tabs" class="" data-bs-toggle="tab"> <i class="fas fa-graduation-cap"></i> <span>Learn</span> </a></li>
+                  <li class="bg-theme-colored3"> <a href="#tab-painting-tabs" class="" data-bs-toggle="tab"> <i class="fas fa-paint-brush"></i> <span>Painting</span> </a></li>
+                  <li class="bg-theme-colored1"> <a href="#tab-sports-tabs" class="" data-bs-toggle="tab"> <i class="far fa-life-ring"></i> <span>Sports</span> </a></li>
+                  <li class="bg-theme-colored4"> <a href="#tab-playground-tabs" class="" data-bs-toggle="tab"> <i class="fas fa-trophy"></i> <span>Playground</span> </a></li>
+                </ul>
+                <div class="tab-content">
+                  <div class="tab-pane fade in active show" id="tab-music-tabs">
+                    <div class="row">
+                      <div class="col-lg-6 col-xl-7">
+                        <div class="tab-left-part mb-lg-40">
+                          <h3 class="title mb-20 text-theme-colored1">Music</h3>
+                          <p class="lead">Songs, rhythm and movement make every day joyful while building young children's listening, language and coordination skills.</p>
+                          <p>Children enjoy action songs, Indian rhymes, simple instruments and festive music in English and familiar regional languages. These playful sessions encourage confidence, expression and participation.</p>
+                          <div class="row mb-20">
+                            <div class="col-sm-6">
+                              <div class="tm-sc-unordered-list list-style">
+                                <ul class="list-unstyled text-black">
+                                  <li><i class="icon fas fa-heart text-theme-colored1 me-2"></i> Indian Rhymes</li>
+                                  <li><i class="icon fas fa-heart text-theme-colored1 me-2"></i> Action Songs</li>
+                                  <li><i class="icon fas fa-heart text-theme-colored1 me-2"></i> Rhythm & Movement</li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="col-sm-6">
+                              <div class="tm-sc-unordered-list list-style">
+                                <ul class="list-unstyled text-black">
+                                  <li><i class="icon fas fa-heart text-theme-colored1 me-2"></i> Simple Instruments</li>
+                                  <li><i class="icon fas fa-heart text-theme-colored1 me-2"></i> Language Skills</li>
+                                  <li><i class="icon fas fa-heart text-theme-colored1 me-2"></i> Confident Expression</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="tab-contact d-flex flex-column flex-md-row">
+                            <a class="btn btn-sm btn-dark btn-theme-colored1" href="#">View Details</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-xl-5">
+                        <img src="https://via.placeholder.com/450x470" alt="" class="w-100 mb-md-30">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="tab-learn-tabs">
+                    <div class="row">
+                      <div class="col-lg-6 col-xl-7">
+                        <div class="tab-left-part mb-lg-40">
+                          <h3 class="title mb-20 text-theme-colored2">Learn</h3>
+                          <p class="lead">Play-based learning builds strong foundations in language, early mathematics, curiosity and everyday independence.</p>
+                          <p>Stories, phonics, picture talk, puzzles and hands-on activities introduce letters, numbers, shapes and our surroundings. Each child learns at a comfortable pace with caring teacher guidance.</p>
+                          <div class="row mb-20">
+                            <div class="col-sm-6">
+                              <div class="tm-sc-unordered-list list-style">
+                                <ul class="list-unstyled text-black">
+                                  <li><i class="icon fas fa-heart text-theme-colored2 me-2"></i> Early Phonics</li>
+                                  <li><i class="icon fas fa-heart text-theme-colored2 me-2"></i> Number Readiness</li>
+                                  <li><i class="icon fas fa-heart text-theme-colored2 me-2"></i> Storytelling</li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="col-sm-6">
+                              <div class="tm-sc-unordered-list list-style">
+                                <ul class="list-unstyled text-black">
+                                  <li><i class="icon fas fa-heart text-theme-colored2 me-2"></i> Hands-on Discovery</li>
+                                  <li><i class="icon fas fa-heart text-theme-colored2 me-2"></i> Thinking Skills</li>
+                                  <li><i class="icon fas fa-heart text-theme-colored2 me-2"></i> School Readiness</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="tab-contact d-flex flex-column flex-md-row">
+                            <a class="btn btn-sm btn-dark btn-theme-colored2" href="#">View Details</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-xl-5">
+                        <img src="https://via.placeholder.com/450x470" alt="" class="w-100 mb-md-30">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="tab-painting-tabs">
+                    <div class="row">
+                      <div class="col-lg-6 col-xl-7">
+                        <div class="tab-left-part mb-lg-40">
+                          <h3 class="title mb-20 text-theme-colored3">Painting</h3>
+                          <p class="lead">Colourful art experiences give little hands the freedom to imagine, experiment and proudly create something of their own.</p>
+                          <p>Children explore crayons, finger painting, clay, collage and safe craft materials. Seasonal and Indian festival-themed projects make creativity meaningful while strengthening fine-motor control.</p>
+                          <div class="row mb-20">
+                            <div class="col-sm-6">
+                              <div class="tm-sc-unordered-list list-style">
+                                <ul class="list-unstyled text-black">
+                                  <li><i class="icon fas fa-heart text-theme-colored3 me-2"></i> Drawing & Colouring</li>
+                                  <li><i class="icon fas fa-heart text-theme-colored3 me-2"></i> Clay Modelling</li>
+                                  <li><i class="icon fas fa-heart text-theme-colored3 me-2"></i> Festival Crafts</li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="col-sm-6">
+                              <div class="tm-sc-unordered-list list-style">
+                                <ul class="list-unstyled text-black">
+                                  <li><i class="icon fas fa-heart text-theme-colored3 me-2"></i> Creative Expression</li>
+                                  <li><i class="icon fas fa-heart text-theme-colored3 me-2"></i> Fine-Motor Skills</li>
+                                  <li><i class="icon fas fa-heart text-theme-colored3 me-2"></i> Sensory Exploration</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="tab-contact d-flex flex-column flex-md-row">
+                            <a class="btn btn-sm btn-dark btn-theme-colored3" href="#">View Details</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-xl-5">
+                        <img src="https://via.placeholder.com/450x470" alt="" class="w-100 mb-md-30">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="tab-sports-tabs">
+                    <div class="row">
+                      <div class="col-lg-6 col-xl-7">
+                        <div class="tab-left-part mb-lg-40">
+                          <h3 class="title mb-20 text-theme-colored1">Sports</h3>
+                          <p class="lead">Age-appropriate games keep children active and help develop balance, coordination, teamwork and healthy daily habits.</p>
+                          <p>Through mini races, ball games, yoga, movement drills and fun team challenges, children strengthen their bodies while learning patience, fair play and the joy of taking part.</p>
+                          <div class="row mb-20">
+                            <div class="col-sm-6">
+                              <div class="tm-sc-unordered-list list-style">
+                                <ul class="list-unstyled text-black">
+                                  <li><i class="icon fas fa-heart text-theme-colored1 me-2"></i> Fun Fitness</li>
+                                  <li><i class="icon fas fa-heart text-theme-colored1 me-2"></i> Kids' Yoga</li>
+                                  <li><i class="icon fas fa-heart text-theme-colored1 me-2"></i> Ball Games</li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="col-sm-6">
+                              <div class="tm-sc-unordered-list list-style">
+                                <ul class="list-unstyled text-black">
+                                  <li><i class="icon fas fa-heart text-theme-colored1 me-2"></i> Balance & Coordination</li>
+                                  <li><i class="icon fas fa-heart text-theme-colored1 me-2"></i> Team Spirit</li>
+                                  <li><i class="icon fas fa-heart text-theme-colored1 me-2"></i> Healthy Habits</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="tab-contact d-flex flex-column flex-md-row">
+                            <a class="btn btn-sm btn-dark btn-theme-colored1" href="#">View Details</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-xl-5">
+                        <img src="https://via.placeholder.com/450x470" alt="" class="w-100 mb-md-30">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="tab-playground-tabs">
+                    <div class="row">
+                      <div class="col-lg-6 col-xl-7">
+                        <div class="tab-left-part mb-lg-40">
+                          <h3 class="title mb-20 text-theme-colored4">Playground</h3>
+                          <p class="lead">Safe, supervised outdoor play gives children space to move freely, make friends and discover the world around them.</p>
+                          <p>Climbing, sliding, sand play and group games build strength, confidence and social skills. Teachers encourage sharing, cooperation and independent play in a caring environment.</p>
+                          <div class="row mb-20">
+                            <div class="col-sm-6">
+                              <div class="tm-sc-unordered-list list-style">
+                                <ul class="list-unstyled text-black">
+                                  <li><i class="icon fas fa-heart text-theme-colored4 me-2"></i> Supervised Play</li>
+                                  <li><i class="icon fas fa-heart text-theme-colored4 me-2"></i> Safe Equipment</li>
+                                  <li><i class="icon fas fa-heart text-theme-colored4 me-2"></i> Sand & Nature Play</li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="col-sm-6">
+                              <div class="tm-sc-unordered-list list-style">
+                                <ul class="list-unstyled text-black">
+                                  <li><i class="icon fas fa-heart text-theme-colored4 me-2"></i> Social Confidence</li>
+                                  <li><i class="icon fas fa-heart text-theme-colored4 me-2"></i> Sharing & Teamwork</li>
+                                  <li><i class="icon fas fa-heart text-theme-colored4 me-2"></i> Gross-Motor Skills</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="tab-contact d-flex flex-column flex-md-row">
+                            <a class="btn btn-sm btn-dark btn-theme-colored4" href="#">View Details</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-xl-5">
+                        <img src="https://via.placeholder.com/450x470" alt="" class="w-100 mb-md-30">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tm-floating-objects">
+        <span class="z-index-1 bg-img-cover" data-tm-bg-img="https://via.placeholder.com/1895x143" data-tm-width="100%" data-tm-height="143" data-tm-top="auto" data-tm-bottom="0" data-tm-left="0" data-tm-right="0" data-tm-opacity="-100px"></span>
+      </div>
+    </section>
+
+    <!-- Section: Gallery -->
+    <section>
+      <div class="container pb-90">
+        <div class="section-title">
+          <div class="row justify-content-center">
+            <div class="col-lg-8 col-xl-6">
+              <div class="tm-sc-section-title section-title text-center">
+                <div class="title-wrapper">
+                  <h2 class="title">Our <span class="text-theme-colored3">Gallery</span></h2>
+                  <p>There are many variations of passages. But the majority have suffered alteration in some form, by injected humour, or randomised words.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section-conent">
+          <div class="row">
+            <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s">
+              <div class="gallery-block">
+                <div class="gallery-thumb">
+                  <img alt="gallery" src="https://via.placeholder.com/350x265" class="img-fullwidth">
+                </div>
+                <div class="overlay-shade"></div>
+                <div class="icons-holder">
+                  <div class="icons-holder-inner">
+                    <div class="gallery-icon">
+                      <a href="https://via.placeholder.com/350x265"  data-lightbox-gallery="gallery"><i class="pe-7s-science"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+              <div class="gallery-block">
+                <div class="gallery-thumb">
+                  <img alt="gallery" src="https://via.placeholder.com/350x265" class="img-fullwidth">
+                </div>
+                <div class="overlay-shade red"></div>
+                <div class="icons-holder">
+                  <div class="icons-holder-inner">
+                    <div class="gallery-icon">
+                      <a href="https://via.placeholder.com/350x265"  data-lightbox-gallery="gallery"><i class="pe-7s-science"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+              <div class="gallery-block">
+                <div class="gallery-thumb">
+                  <img alt="gallery" src="https://via.placeholder.com/350x265" class="img-fullwidth">
+                </div>
+                <div class="overlay-shade yellow"></div>
+                <div class="icons-holder">
+                  <div class="icons-holder-inner">
+                    <div class="gallery-icon">
+                      <a href="https://via.placeholder.com/350x265"  data-lightbox-gallery="gallery"><i class="pe-7s-science"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+            <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
+              <div class="gallery-block">
+                <div class="gallery-thumb">
+                  <img alt="gallery" src="https://via.placeholder.com/350x265" class="img-fullwidth">
+                </div>
+                <div class="overlay-shade green"></div>
+                <div class="icons-holder">
+                  <div class="icons-holder-inner">
+                    <div class="gallery-icon">
+                      <a href="https://via.placeholder.com/350x265"  data-lightbox-gallery="gallery"><i class="pe-7s-science"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.9s">
+              <div class="gallery-block">
+                <div class="gallery-thumb">
+                  <img alt="gallery" src="https://via.placeholder.com/350x265" class="img-fullwidth">
+                </div>
+                <div class="overlay-shade blue"></div>
+                <div class="icons-holder">
+                  <div class="icons-holder-inner">
+                    <div class="gallery-icon">
+                      <a href="https://via.placeholder.com/350x265"  data-lightbox-gallery="gallery"><i class="pe-7s-science"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.1s">
+              <div class="gallery-block">
+                <div class="gallery-thumb">
+                  <img alt="gallery" src="https://via.placeholder.com/350x265" class="img-fullwidth">
+                </div>
+                <div class="overlay-shade sky"></div>
+                <div class="icons-holder">
+                  <div class="icons-holder-inner">
+                    <div class="gallery-icon">
+                      <a href="https://via.placeholder.com/350x265"  data-lightbox-gallery="gallery"><i class="pe-7s-science"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+<!-- Section: Testimonials -->
+    <section class="our-testimonials bg-theme-colored2" data-tm-bg-img="https://via.placeholder.com/1920x504">
+      <div class="container pb-40">
+        <div class="section-title">
+          <div class="row justify-content-center">
+            <div class="col-lg-8 col-xl-6">
+              <div class="tm-sc-section-title section-title text-center">
+                <div class="title-wrapper">
+                  <h2 class="title text-white">Happy Parent's Say</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-content">
+        <div class="testimonial-marquee">
+          <div class="testimonial-marquee-track">
+            <!-- Review 1 -->
+            <div class="tm-testimonial-card">
+              <div class="testimonial-text-holder content">
+                <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                <p>"Little Birds has been a wonderful experience for our daughter. The teachers are caring, the classrooms are safe, and she looks forward to school every day."</p>
+                <i class="fas fa-quote-right text-theme-colored4" data-tm-font-size="28px"></i>
+                <h4 class="author">Priya Sharma</h4>
+                <h6 class="position">Parent of Aarav (Nursery)</h6>
+              </div>
+            </div>
+            <!-- Review 2 -->
+            <div class="tm-testimonial-card">
+              <div class="testimonial-text-holder content">
+                <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                <p>"The staff is extremely supportive, and the activity-based learning has helped my son become more confident and independent."</p>
+                <i class="fas fa-quote-right text-theme-colored4" data-tm-font-size="28px"></i>
+                <h4 class="author">Rahul Verma</h4>
+                <h6 class="position">Parent of Vihaan (Kindergarten)</h6>
+              </div>
+            </div>
+            <!-- Review 3 -->
+            <div class="tm-testimonial-card">
+              <div class="testimonial-text-holder content">
+                <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                <p>"My daughter has blossomed at Little Birds. The music and art activities have made her more creative, and she comes home excited to share something new every day."</p>
+                <i class="fas fa-quote-right text-theme-colored4" data-tm-font-size="28px"></i>
+                <h4 class="author">Ananya Iyer</h4>
+                <h6 class="position">Parent of Diya (LKG)</h6>
+              </div>
+            </div>
+            <!-- Review 4 -->
+            <div class="tm-testimonial-card">
+              <div class="testimonial-text-holder content">
+                <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                <p>"The teachers treat every child with so much love and patience. The campus is clean, safe and colourful, and I can see my little one growing happier each day."</p>
+                <i class="fas fa-quote-right text-theme-colored4" data-tm-font-size="28px"></i>
+                <h4 class="author">Mohammed Faisal</h4>
+                <h6 class="position">Parent of Zara (Pre-Nursery)</h6>
+              </div>
+            </div>
+            <!-- Review 5 -->
+            <div class="tm-testimonial-card">
+              <div class="testimonial-text-holder content">
+                <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                <p>"From the very first day, the staff made us feel completely at ease. My son has become more independent and social, and he absolutely loves his time at school."</p>
+                <i class="fas fa-quote-right text-theme-colored4" data-tm-font-size="28px"></i>
+                <h4 class="author">Kavitha Reddy</h4>
+                <h6 class="position">Parent of Arjun (Play Group)</h6>
+              </div>
+            </div>
+
+            <!-- Duplicate set for seamless loop -->
+            <!-- Review 1 -->
+            <div class="tm-testimonial-card">
+              <div class="testimonial-text-holder content">
+                <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                <p>"Little Birds has been a wonderful experience for our daughter. The teachers are caring, the classrooms are safe, and she looks forward to school every day."</p>
+                <i class="fas fa-quote-right text-theme-colored4" data-tm-font-size="28px"></i>
+                <h4 class="author">Priya Sharma</h4>
+                <h6 class="position">Parent of Aarav (Nursery)</h6>
+              </div>
+            </div>
+            <!-- Review 2 -->
+            <div class="tm-testimonial-card">
+              <div class="testimonial-text-holder content">
+                <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                <p>"The staff is extremely supportive, and the activity-based learning has helped my son become more confident and independent."</p>
+                <i class="fas fa-quote-right text-theme-colored4" data-tm-font-size="28px"></i>
+                <h4 class="author">Rahul Verma</h4>
+                <h6 class="position">Parent of Vihaan (Kindergarten)</h6>
+              </div>
+            </div>
+            <!-- Review 3 -->
+            <div class="tm-testimonial-card">
+              <div class="testimonial-text-holder content">
+                <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                <p>"My daughter has blossomed at Little Birds. The music and art activities have made her more creative, and she comes home excited to share something new every day."</p>
+                <i class="fas fa-quote-right text-theme-colored4" data-tm-font-size="28px"></i>
+                <h4 class="author">Ananya Iyer</h4>
+                <h6 class="position">Parent of Diya (LKG)</h6>
+              </div>
+            </div>
+            <!-- Review 4 -->
+            <div class="tm-testimonial-card">
+              <div class="testimonial-text-holder content">
+                <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                <p>"The teachers treat every child with so much love and patience. The campus is clean, safe and colourful, and I can see my little one growing happier each day."</p>
+                <i class="fas fa-quote-right text-theme-colored4" data-tm-font-size="28px"></i>
+                <h4 class="author">Mohammed Faisal</h4>
+                <h6 class="position">Parent of Zara (Pre-Nursery)</h6>
+              </div>
+            </div>
+            <!-- Review 5 -->
+            <div class="tm-testimonial-card">
+              <div class="testimonial-text-holder content">
+                <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                <p>"From the very first day, the staff made us feel completely at ease. My son has become more independent and social, and he absolutely loves his time at school."</p>
+                <i class="fas fa-quote-right text-theme-colored4" data-tm-font-size="28px"></i>
+                <h4 class="author">Kavitha Reddy</h4>
+                <h6 class="position">Parent of Arjun (Play Group)</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  
+
+<!-- Footer -->
+  <footer id="footer" class="footer india-footer">
+    <!-- Indian tricolor top accent strip -->
+    <div class="india-footer-tricolor">
+      <span class="tri-saffron"></span><span class="tri-white"></span><span class="tri-green"></span>
+    </div>
+
+    <div class="footer-widget-area">
+      <div class="container pt-80 pb-40">
+        <div class="row">
+          <!-- Column 1: About / School Info -->
+          <div class="col-md-6 col-lg-6 col-xl-4">
+            <div class="widget tm-widget-contact-info contact-info-style1 contact-icon-theme-colored1">
+              <div class="thumb">
+                <img alt="Little Birds Logo" src="images/littlebirds.png" class="india-footer-logo">
+              </div>
+              <div class="description">Little Birds is a premier kindergarten &amp; preschool in Bengaluru, nurturing young minds with love, care and a joyful learning experience since 2005.</div>
+              <ul class="mb-30">
+                <li class="contact-phone">
+                  <div class="icon"><i class="flaticon-contact-042-phone-1"></i></div>
+                  <div class="text"><a href="tel:9876543210">9876543210</a></div>
+                </li>
+                <li class="contact-email">
+                  <div class="icon"><i class="flaticon-contact-043-email-1"></i></div>
+                  <div class="text"><a href="mailto:info@littlebirds.in">info@littlebirds.in</a></div>
+                </li>
+                <li class="contact-address">
+                  <div class="icon"><i class="flaticon-contact-037-address"></i></div>
+                  <div class="text"><a href="https://www.google.com/maps/search/?api=1&query=Little+Birds+Kindergarten+Electronic+City+Bengaluru+Karnataka+560100" target="_blank" rel="noopener">#12, 2nd Cross, Electronic City, Bengaluru, Karnataka - 560100</a></div>
+                </li>
+              </ul>
+
+              <!-- Google Map Card -->
+              <div class="india-footer-map">
+                <div class="india-footer-map-title">
+                  <i class="fas fa-map-marker-alt"></i> Find Us On Google Maps
+                </div>
+                <div class="india-footer-map-embed">
+                  <iframe
+                    src="https://www.google.com/maps?q=Little%20Birds%20Kindergarten%20Electronic%20City%20Bengaluru%20Karnataka%20560100&output=embed"
+                    loading="lazy"
+                    allowfullscreen
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Little Birds Kindergarten Location on Google Maps"></iframe>
+                </div>
+                <a class="india-footer-map-btn" href="https://www.google.com/maps/dir/?api=1&destination=Little+Birds+Kindergarten+Electronic+City+Bengaluru+Karnataka+560100" target="_blank" rel="noopener">
+                  <i class="fas fa-directions"></i> Get Directions
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 2: Quick Links -->
+          <div class="col-md-6 col-lg-6 col-xl-2">
+            <div class="widget widget_nav_menu">
+              <h4 class="widget-title">Quick Links</h4>
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Admissions</a></li>
+                <li><a href="#">Our Programs</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Column 3: Our Programs -->
+          <div class="col-md-6 col-lg-6 col-xl-3">
+            <div class="widget widget_nav_menu">
+              <h4 class="widget-title">Our Programs</h4>
+              <ul>
+                <li><a href="#">Daycare</a></li>
+                <li><a href="#">Preschool</a></li>
+                <li><a href="#">Nursery</a></li>
+                <li><a href="#">LKG</a></li>
+                <li><a href="#">UKG</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Column 4: Contact + Newsletter -->
+          <div class="col-md-6 col-lg-6 col-xl-3">
+            <div class="widget">
+              <h4 class="widget-title">Stay Connected</h4>
+              <p>Subscribe to receive updates about admissions, events and activities.</p>
+              <form id="india-newsletter-form" class="newsletter-form india-footer-newsletter">
+                <div class="input-group">
+                  <input type="email" id="mce-EMAIL" class="form-control" placeholder="Your Email" name="EMAIL" value="">
+                  <div class="input-group-append tm-sc-button">
+                    <button type="submit" class="btn btn-theme-colored1 btn-sm">Subscribe</button>
+                  </div>
+                </div>
+              </form>
+              <div class="india-social mt-30">
+                <h5 class="india-social-title">Follow Us</h5>
+                <ul class="styled-icons icon-dark icon-theme-colored1 icon-rounded clearfix">
+                  <li><a class="social-link" href="#" ><i class="fab fa-facebook"></i></a></li>
+                  <li><a class="social-link" href="#" ><i class="fab fa-instagram"></i></a></li>
+                  <li><a class="social-link" href="#" ><i class="fab fa-youtube"></i></a></li>
+                  <li><a class="social-link" href="#" ><i class="fab fa-whatsapp"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer bottom bar -->
+      <div class="footer-bottom india-footer-bottom">
+        <div class="container">
+          <div class="row align-items-center pt-20 pb-20">
+            <div class="col-md-6">
+              <div class="footer-paragraph">
+                © 2025 Little Birds Kindergarten. All Rights Reserved.
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="footer-paragraph text-md-end">
+                Designed &amp; Developed by <a href="https://www.repriko.com" target="_blank" class="india-dev-link">www.repriko.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+</div>
+<!-- end wrapper -->
+
+<!-- Footer Scripts -->
+<!-- JS | Custom script for all pages -->
+<script src="js/custom.js"></script>
+<script>
+  document.getElementById('campus-visit-modal').addEventListener('show.bs.modal', function (event) {
+    var isCallBack = event.relatedTarget && event.relatedTarget.getAttribute('data-modal-context') === 'call-back';
+    var modalTitle = document.getElementById('campus-visit-modal-title');
+    var modalDescription = document.getElementById('campus-visit-modal-description');
+
+    if (isCallBack) {
+      modalTitle.innerHTML = '<i class="fa fa-phone mr-10"></i> Call Me Back';
+      modalDescription.textContent = 'Share your mobile number and our admissions team will call you back shortly.';
+    } else {
+      modalTitle.innerHTML = '<i class="fa fa-calendar-check mr-10"></i> Book a Campus Visit';
+      modalDescription.textContent = 'Please fill in your details below and we will schedule your campus visit.';
+    }
+  });
+</script>
+
+</body>
+</html>
