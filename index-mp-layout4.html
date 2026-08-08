@@ -40,11 +40,63 @@
 
 <!-- Custom header styles -->
 <style>
-  #top-primary-nav .menuzord-menu > li.active > a,
-  #top-primary-nav .menuzord-menu > li:hover > a,
-  #top-primary-nav-clone .menuzord-menu > li.active > a,
-  #top-primary-nav-clone .menuzord-menu > li:hover > a {
+  /* Nav menu items (Home, About Us, etc.): default black, no bg, no active highlight */
+  #top-primary-nav .menuzord-menu > li > a:not(.btn),
+  #top-primary-nav-clone .menuzord-menu > li > a:not(.btn) {
+    color: #000 !important;
+    background: transparent !important;
+  }
+/* Hover: text orange only, no background */
+  #top-primary-nav .menuzord-menu > li:hover > a:not(.btn),
+  #top-primary-nav-clone .menuzord-menu > li:hover > a:not(.btn) {
     color: #FF9800 !important;
+    background: transparent !important;
+  }
+  /* Active (current page): text orange only, no background */
+  #top-primary-nav .menuzord-menu > li.active > a:not(.btn),
+  #top-primary-nav-clone .menuzord-menu > li.active > a:not(.btn) {
+    color: #FF9800 !important;
+    background: transparent !important;
+  }
+/* Book a Campus Visit button: on hover -> text orange, bg white, border orange */
+  #top-primary-nav .menuzord-menu > li > a.btn:hover,
+  #top-primary-nav-clone .menuzord-menu > li > a.btn:hover {
+    background: #fff !important;
+    color: #f7931e !important;
+    border: 2px solid #f7931e !important;
+  }
+  /* Reduce main header height */
+  .menuzord-brand.site-brand {
+    margin: 10px 30px 10px 0;
+  }
+  #top-primary-nav .menuzord-menu > li,
+  #top-primary-nav-clone .menuzord-menu > li {
+    padding: 10px 0;
+  }
+/* Increase logo size so it is clearly visible */
+  .menuzord-brand.site-brand .logo-1x {
+    height: 68px;
+    width: auto;
+  }
+/* Move navbar items slightly left toward the logo */
+  #top-primary-nav .menuzord-menu {
+    margin-left: -30px;
+  }
+  /* Top bar links: bold + dim, orange underline on hover */
+  .topbar-link {
+    color: rgba(255,255,255,0.75) !important;
+    font-weight: 700 !important;
+    text-decoration: none !important;
+    transition: color .3s ease;
+  }
+  .topbar-link:hover {
+    color: #FF9800 !important;
+    text-decoration: underline !important;
+  }
+  .topbar-separator {
+    color: rgba(255,255,255,0.75);
+    font-weight: 700;
+    margin-right: 1rem;
   }
 </style>
 
@@ -140,9 +192,10 @@
       <div class="container">
         <div class="row">
           <div class="col-12 header-top-right text-center text-xl-end py-1">
-            <div class="d-flex justify-content-center justify-content-xl-end align-items-center">
-              <a href="https://wa.me/918892545200" target="_blank" class="text-white text-decoration-none me-2 me-sm-3 py-1"><i class="fab fa-whatsapp mr-5"></i> WhatsApp Chat</a>
-              <a href="#call-back-modal" data-bs-toggle="modal" class="text-white text-decoration-none py-1"><i class="fa fa-phone mr-5"></i> Call Me Back</a>
+<div class="d-flex justify-content-center justify-content-xl-end align-items-center">
+              <a href="https://wa.me/918892545200" target="_blank" class="topbar-link me-2 me-sm-3 py-1"><i class="fab fa-whatsapp mr-5"></i> WhatsApp Chat</a>
+              <span class="topbar-separator">|</span>
+              <a href="#call-back-modal" data-bs-toggle="modal" class="topbar-link py-1"><i class="fa fa-phone mr-5"></i> Call Me Back</a>
             </div>
           </div>
         </div>
@@ -216,8 +269,8 @@
               </div>
 <div class="col col-xl-auto ms-sm-auto pe-0 ps-0 align-self-center">
                 <nav id="top-primary-nav" class="menuzord default menuzord-color-default menuzord-border-boxed menuzord-responsive" data-effect="slide" data-animation="none" data-align="right">
-                  <ul id="main-nav" class="menuzord-menu menuzord-right menuzord-indented scrollable">
-                    <li class="active"><a href="index-mp-layout4.html">Home</a></li>
+<ul id="main-nav" class="menuzord-menu menuzord-right menuzord-indented scrollable">
+                    <li><a href="index-mp-layout4.html">Home</a></li>
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Programs</a>
                       <ul class="dropdown">
@@ -232,7 +285,7 @@
                     <li><a href="#">Admission</a></li>
                     <li><a href="#">Gallery</a></li>
 <li><a href="#">Contact</a></li>
-                    <li><a href="#campus-visit-modal" data-bs-toggle="modal" class="btn btn-orange btn-sm text-white fw-bold" style="background:#f7931e;border-color:#f7931e;color:#fff;font-weight:700;">Book a Campus Visit</a></li>
+<li><a href="#campus-visit-modal" data-bs-toggle="modal" class="btn btn-orange btn-sm text-white fw-bold" style="background:#f7931e;border-color:#fff;color:#fff;font-weight:700;border:2px solid #fff;">Book a Campus Visit</a></li>
                   </ul>
                 </nav>
               </div>
@@ -256,7 +309,7 @@
                   <li><a href="#">Admission</a></li>
 <li><a href="#">Gallery</a></li>
                   <li><a href="#">Contact</a></li>
-                  <li><a href="#campus-visit-modal" data-bs-toggle="modal" class="btn btn-orange btn-sm text-white fw-bold" style="background:#f7931e;border-color:#f7931e;color:#fff;font-weight:700;">Book a Campus Visit</a></li>
+                  <li><a href="#campus-visit-modal" data-bs-toggle="modal" class="btn btn-orange btn-sm text-white fw-bold" style="background:#f7931e;border-color:#fff;color:#fff;font-weight:700;border:2px solid #fff;">Book a Campus Visit</a></li>
                 </ul>
                 </nav>
                </div>
